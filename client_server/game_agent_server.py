@@ -12,7 +12,7 @@ from core.game_state import Player, camel_to_snake
 
 
 class GameServerAgent:
-    def __init__(self, host: str = "localhost", port: int = 8080):
+    def __init__(self, host: str = "localhost", port: int = 9495):
         self.host = host
         self.port = port
         self.agent_map: Dict[str, GreedyHeuristicAgent] = {}
